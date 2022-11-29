@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+    background-color: black;
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-top: 5%;
+background-color: black;
+}
+
+.claculator{
+padding: 5px;
+border-radius: 4px;
+    width: 25%;
+    height: 60vh;
+    border:3px solid rgb(227, 129, 0);
+}
+
+.display input{
+border: none;
+border: 3px solid white;
+border-radius: 4px;
+padding: 5px 5px;
+background-color:black;
+color: rgb(227, 129, 0);
+margin: 6px 4px;
+width:96%;
+height:10vh;
+ font-size: 30px;
+;
+
+}
+.calnumbers{
+    width: 100%;
+
+}
+.calnumbers p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4px 0px;
+   
+} 
+.calnumbers p input{
+    width: 22%;
+    font-size: 30px;
+    border-radius: 4px;
+height:8.5vh;
+}
+
+.bg-color{
+    background-color: rgb(227, 129, 0);
+}
